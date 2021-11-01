@@ -11,8 +11,8 @@ public class Main {
         for (int i = 0; i < adj.size(); i++) {
     	    System.out.println("For [" + i + "] Node : \n");
     	    System.out.print("Adjacent list : ");
-    	    for (int j = 0; j < adj.get (i).size(); j++) {
-    	        System.out.print(adj.get (i).get(j) + " ");
+    	    for (int j = 0; j < adj.get(i).size(); j++) {
+    	        System.out.print(adj.get(i).get(j) + " ");
     	    }
     	    System.out.println("\n");
         }
