@@ -2,11 +2,11 @@ import java.lang.*;
 import java.util.*;
 import java.io.*;
 public class BFSALGOCOMPLETE {
-    public static void addEdge (ArrayList<ArrayList<Integer>> adj, int u, int v) {
+    public static void addEdge(ArrayList<ArrayList<Integer>> adj, int u, int v) {
         adj.get(u).add(v);
         adj.get(v).add(u);
     }
-    public static void printGraph (ArrayList<ArrayList<Integer>> adj) {
+    public static void printGraph(ArrayList<ArrayList<Integer>> adj) {
         System.out.println("Directed Graph : ");
         for (int i = 0; i < adj.size(); i++) {
     	    System.out.println("For [" + i + "] Node : \n");
